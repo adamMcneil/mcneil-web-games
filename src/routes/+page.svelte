@@ -25,6 +25,11 @@
 </section>
 
 <style>
+	img {
+		padding: 10px;
+		border-radius: 10%;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
