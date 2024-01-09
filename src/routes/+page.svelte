@@ -14,15 +14,13 @@
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
 		</div>
-
-		to your new<br />SvelteKit app
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	<div>
+		<a href="https://adammcneil.github.io/weighty-inquiry/">weighty inquiries</a>
+	</div>
+	<div>
+		<a href="https://davidmcneil.github.io/brains-and-bets/">brains and bets</a>
+	</div>
 </section>
 
 <style>
