@@ -4,14 +4,9 @@
 </script>
 
 <section>
-	<!-- <h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-	</h1> -->
+	<h1>
+		Pick a Game
+	</h1>
 	<div>
 		<a href="https://adammcneil.github.io/weighty-inquiry/">
 			<img alt="Weighty Inquiries" src={weighty_inquiries_logo} href="https://adammcneil.github.io/weighty-inquiry/"/>
@@ -28,6 +23,7 @@
 	img {
 		padding: 10px;
 		border-radius: 10%;
+		scale: 90%;
 	}
 
 	section {
@@ -39,7 +35,10 @@
 	}
 
 	h1 {
+		color: white;
+		font-size: xxx-large;
 		width: 100%;
+		font-family: 'Dyuthi';
 	}
 
 	.welcome {
