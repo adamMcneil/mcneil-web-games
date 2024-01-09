@@ -1,7 +1,10 @@
 <script>
 	import weighty_inquiries_logo from '$lib/assets/weighty_inquiries_logo.png';
 	import brains_and_bets_logo from '$lib/assets/brains_and_bets_logo.png';
+	import favicon from '$lib/assets/favicon.png';
 </script>
+
+<link rel="icon" type="image/jpg" href={favicon}/>
 
 <section>
 	<h1>
