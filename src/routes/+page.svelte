@@ -2,13 +2,39 @@
 	import weighty_inquiries_logo from '$lib/assets/weighty_inquiries_logo.png';
 	import brains_and_bets_logo from '$lib/assets/brains_and_bets_logo.png';
 	import favicon from '$lib/assets/favicon.png';
+	import { onMount } from 'svelte';
+
+	let brains_server = 'https://brains-and-bets.onrender.com/api/v1/heartbeat/';
+	let weighty_server = 'https://weight-inquiries.onrender.com/api/v1/heartbeat/';
+
+	async function hit_weighty() {
+		const response = await fetch(weighty_server, {
+			method: 'GET',
+			headers: { 'Content-Type': 'application/json' }
+		});
+		return response;
+	}
+
+	async function hit_brains_and_bets() {
+		const response = await fetch(brains_server, {
+			method: 'GET',
+			headers: { 'Content-Type': 'application/json' }
+		});
+		return response;
+	}
+
+	onMount(() => {
+		console.log('onMount'); 
+		hit_weighty();
+		hit_brains_and_bets();
+	});
 </script>
 
 <link rel="icon" type="image/jpg" href={favicon}/>
 
 <section>
 	<h1>
-		Pick a Game
+		McNeil Web Games	
 	</h1>
 	<div>
 		<a href="https://adammcneil.github.io/weighty-inquiry/">
