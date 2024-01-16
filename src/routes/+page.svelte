@@ -1,6 +1,7 @@
 <script>
 	import weighty_inquiries_logo from '$lib/assets/weighty_inquiries_logo.png';
 	import brains_and_bets_logo from '$lib/assets/brains_and_bets_logo.png';
+	import term_on_the_logo from '$lib/assets/term_on_the_road_logo.png';
 	import favicon from '$lib/assets/favicon.png';
 	import { onMount } from 'svelte';
 
@@ -44,6 +45,11 @@
 	<div>
 		<a href="https://davidmcneil.github.io/brains-and-bets/">
 			<img alt="Brains and Bets" src={brains_and_bets_logo} href="https://davidmcneil.github.io/brains-and-bets/" />
+		</a>
+	</div>
+	<div>
+		<a href="https://adammcneil.github.io/term-on-the-road/">
+			<img alt="Term on the Road" src={term_on_the_logo} href="https://adammcneil.github.io/term-on-the-road/" />
 		</a>
 	</div>
 </section>
