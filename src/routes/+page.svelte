@@ -2,6 +2,7 @@
 	import weighty_inquiries_logo from '$lib/assets/weighty_inquiries_logo.png';
 	import brains_and_bets_logo from '$lib/assets/brains_and_bets_logo.png';
 	import term_on_the_logo from '$lib/assets/term_on_the_road_logo.png';
+	import the_iguana_logo from '$lib/assets/the_iguana_logo.png';
 	import favicon from '$lib/assets/favicon.png';
 	import { onMount } from 'svelte';
 
@@ -52,6 +53,13 @@
 			<img alt="Term on the Road" src={term_on_the_logo} href="https://adammcneil.github.io/term-on-the-road/" />
 		</a>
 	</div>
+	<div>
+		<a href="https://the-chameleon.onrender.com/lobby">
+			<img alt="The Iguana" src={the_iguana_logo} href="https://the-chameleon.onrender.com/lobby" />
+		</a>
+	</div>
+
+	
 </section>
 
 <style>
