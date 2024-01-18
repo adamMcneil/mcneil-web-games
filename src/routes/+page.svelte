@@ -3,6 +3,7 @@
 	import brains_and_bets_logo from '$lib/assets/brains_and_bets_logo.png';
 	import term_on_the_logo from '$lib/assets/term_on_the_road_logo.png';
 	import the_iguana_logo from '$lib/assets/the_iguana_logo.png';
+	import unencrypto_logo from '$lib/assets/unencrypto_logo.png';
 	import favicon from '$lib/assets/favicon.png';
 	import { onMount } from 'svelte';
 
@@ -51,6 +52,11 @@
 	<div>
 		<a href="https://adammcneil.github.io/term-on-the-road/">
 			<img alt="Term on the Road" src={term_on_the_logo} href="https://adammcneil.github.io/term-on-the-road/" />
+		</a>
+	</div>
+	<div>
+		<a href="https://lukemcneil.github.io/unencrypto/">
+			<img alt="Unencrypto" src={unencrypto_logo} href="https://lukemcneil.github.io/unencrypto/" />
 		</a>
 	</div>
 	<div>
