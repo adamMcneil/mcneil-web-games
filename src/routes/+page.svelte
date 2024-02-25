@@ -84,7 +84,7 @@
       />
     </a>
   </div>
-  <div>
+  <!-- <div>
     <a href="https://the-chameleon.onrender.com/lobby">
       <img
         alt="The Iguana"
@@ -92,7 +92,7 @@
         href="https://the-chameleon.onrender.com/lobby"
       />
     </a>
-  </div>
+  </div> -->
 </section>
 
 <style>
