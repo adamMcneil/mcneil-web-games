@@ -2,15 +2,16 @@
   import weighty_inquiries_logo from "$lib/assets/weighty_inquiries_logo.png";
   import brains_and_bets_logo from "$lib/assets/brains_and_bets_logo.png";
   import term_on_the_logo from "$lib/assets/term_on_the_road_logo.png";
-  import the_iguana_logo from "$lib/assets/the_iguana_logo.png";
+  // import the_iguana_logo from "$lib/assets/the_iguana_logo.png";
   import unencrypto_logo from "$lib/assets/unencrypto_logo.png";
   import battle_royal_tag_logo from "$lib/assets/battle_royal_tag_logo.png";
+  import scramble_logo from "$lib/assets/scramble_logo.png";
+  
   import favicon from "$lib/assets/favicon.png";
   import { onMount } from "svelte";
 
   let brains_server = "https://brains-and-bets.onrender.com/api/v1/heartbeat/";
-  let weighty_server =
-    "https://weight-inquiries.onrender.com/api/v1/heartbeat/";
+  let weighty_server = "https://weight-inquiries.onrender.com/api/v1/heartbeat/";
 
   async function hit_weighty() {
     const response = await fetch(weighty_server, {
@@ -84,6 +85,15 @@
       />
     </a>
   </div>
+  <div>
+    <a href="https://lukemcneil.github.io/scramble/">
+      <img
+        alt="Scramble"
+        src={scramble_logo}
+        href="https://lukemcneil.github.io/scramble/"
+      />
+    </a>
+  </div>
   <!-- <div>
     <a href="https://the-chameleon.onrender.com/lobby">
       <img
@@ -98,7 +108,6 @@
 <style>
   img {
     padding: 10px;
-    border-radius: 10%;
     scale: 90%;
   }
 
