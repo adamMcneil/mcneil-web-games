@@ -7,14 +7,14 @@
   }
 </script>
 
-<section>
-  <h1>McNeil Web Games</h1>
+<main>
+  <h1 class="title">McNEIL WEB GAMES</h1>
   <div class="button-container">
     {#each games as game}
       <Button text={game.name} onClick={() => loadPage(game.link)} />
     {/each}
   </div>
-</section>
+</main>
 
 <style>
   @import "../app.css";

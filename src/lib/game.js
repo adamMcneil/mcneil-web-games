@@ -1,6 +1,6 @@
 export const games = [
   {
-    name: "Weighty Inquires",
+    name: "Weighty Inquires?",
     link: "https://adammcneil.github.io/weighty-inquiry/"
   },
   {

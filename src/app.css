@@ -1,48 +1,58 @@
 /* General body styling */
 body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
-    font-family: Arial, sans-serif;
+  margin: 5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #f4f4f4;*/
+  font-family: Arial, sans-serif;
+  /*background-image: radial-gradient(rgb(255, 255, 255), rgb(212, 253, 211));*/
+  background-image: radial-gradient(rgb(63, 63, 63), rgb(22, 22, 22));
+}
+
+.title {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 /* Container to center buttons */
 .button-container {
-    display: flex;
-    flex-direction: column; /* Align buttons vertically */
-    gap: 15px; /* Space between buttons */
-    align-items: center; /* Center buttons horizontally */
+  display: flex;
+  flex-direction: column;
+  /* Align buttons vertically */
+  gap: 15px;
+  /* Space between buttons */
+  align-items: center;
+  /* Center buttons horizontally */
 }
 
 /* Button styling */
 .button {
-    background: linear-gradient(135deg, #3498db, #2ecc71);
-    border: none;
-    border-radius: 12px;
-    color: white;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 15px 30px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: background 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    outline: none;
+  background: rgb(100, 100, 100);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
   margin: 5px;
-  
-  
 }
 
 /* Button hover effect */
 .button:hover {
-    background: linear-gradient(135deg, #2980b9, #27ae60);
+  background: rgb(120, 120, 120);
+  transform: scale(1.02);
 }
 
 /* Button active effect */
 .button:active {
-    transform: scale(0.98);
+  transform: scale(0.98);
 }
