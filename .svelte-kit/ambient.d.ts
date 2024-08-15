@@ -37,7 +37,6 @@ declare module '$env/static/private' {
 	export const STARSHIP_SHELL: string;
 	export const FONTCONFIG_PATH: string;
 	export const GIO_MODULE_DIR: string;
-	export const npm_config_host: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_node_execpath: string;
 	export const SNAP_UID: string;
@@ -187,7 +186,6 @@ declare module '$env/dynamic/private' {
 		STARSHIP_SHELL: string;
 		FONTCONFIG_PATH: string;
 		GIO_MODULE_DIR: string;
-		npm_config_host: string;
 		XDG_SESSION_TYPE: string;
 		npm_node_execpath: string;
 		SNAP_UID: string;

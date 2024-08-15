@@ -1,6 +1,6 @@
 export const games = [
   {
-    name: "Weighty Inquires",
+    name: "Weighty Inquiries",
     link: "https://adammcneil.github.io/weighty-inquiry/",
     color: "SeaGreen"
   },
@@ -17,21 +17,21 @@ export const games = [
   {
     name: "Unencrypto",
     link: "https://lukemcneil.github.io/unencrypto/",
-    color: "Tomato"
+    color: "CornflowerBlue"
   },
-    {
-    name: "Scrable",
+  {
+    name: "Scramble",
     link: "https://lukemcneil.github.io/scramble/",
-    color: "GoldenRod"
+    color: "FireBrick"
   },
   {
     name: "Ear Game",
     link: "https://lukemcneil.github.io/ear-game/",
-    color: "Teal"
+    color: "GoldenRod"
   },
-  {
-    name: "Battle Royal Tag",
-    link: "https://adammcneil.github.io/battle-royal-tag/",
-    color: "SandyBrown"
-  }
+  //{
+  //  name: "Battle Royal Tag",
+  //  link: "https://adammcneil.github.io/battle-royal-tag/",
+  //  color: "SandyBrown"
+  //}
 ];
