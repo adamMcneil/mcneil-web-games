@@ -29,9 +29,9 @@ export const games = [
     link: "https://lukemcneil.github.io/ear-game/",
     color: "GoldenRod"
   },
-  //{
-  //  name: "Battle Royal Tag",
-  //  link: "https://adammcneil.github.io/battle-royal-tag/",
-  //  color: "SandyBrown"
-  //}
+  {
+    name: "The Election Game",
+    link: "https://lukemcneil.github.io/the-election-game/",
+    color: "SandyBrown"
+  }
 ];
